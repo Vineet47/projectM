@@ -1,0 +1,310 @@
+.color-of-nav{
+    background-color:  #f5f0e1 ;
+}
+#color-of-brand{
+    color: #000000;
+    font-size: 1.9rem;
+    padding: 5px;
+    margin-left:20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.color-of-elements{
+    color:#000000;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.color-of-elements:hover{
+    color:#000000;
+}
+#style-btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+#style-btn:hover{
+    background-color: #5c3c92;
+    font-size: 1.4rem;
+    color: white;
+}
+#mm{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+#mm:hover{
+    color: white;
+    font-size: 1.2rem;
+    background-color: #5c3c92;
+}
+#mmf{
+    background-color: #f5f0e1;
+}
+
+#small-span{
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.4rem;
+}
+#img-style{
+     width: 100%;
+}
+#img-button{
+    box-sizing: border-box;
+    position: absolute;
+    background-color: Transparent;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #fff;
+    padding:0 14px;
+    transition: opacity 1s 1.5s ease, background .7s, color .7s;
+    top: 50%;
+    border-radius: 2px;
+}
+#img-button:hover{
+    border: none;
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+}
+
+#footer-id{
+    padding: 10px 0 10px 0;
+    /* background-color:#D4B996FF; */
+    /* background-color: #A2A2A1FF; */
+    background-color: #4e4e50;
+}
+#message{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* background-color: #c2b9b0; */
+}
+#copyright{
+    font-size: 1.2rem;
+    text-align: center;
+    /* background-color: #c2b9b0; */
+}
+
+/* About us  Section  */
+.about-us-style {
+    background-color: #E8ECEF;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;  
+    text-align: center;
+}
+.product-container {
+    text-align: center;
+}
+.intro {
+    background-color:#f5f0e1;
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.proto-for-product {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px black;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.1);
+}
+.product-images {
+    width: 20%;
+    height: 20%;
+}
+
+/* Review */
+.colored-section{
+    /* background-color: #A2A2A1FF; */
+    /* background-color:#D4B996FF; */
+    background-color:#A8A7A7;
+    text-align: center;
+}
+#car-div-top{
+    font-size: 3rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.testimonial-image{
+    padding: 10px;
+    width: 20%;
+    border-radius: 100%;
+}
+.testimonial-names{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*         Product image              */
+.row {
+    background-color: #E8ECEF;
+    text-align: center;
+}
+.test {
+    padding: 1rem;
+  text-align: center;
+}
+.test button {
+    margin: 0 0.4rem;
+}
+.ratings {
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.image-of-product {
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contains {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.product-title {
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+}
+hr {
+    border: none;
+    height: 10px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch;
+}
+
+/* product details*/
+
+.anchor-it {
+        display: inline-block;
+        padding: 0.25rem 1rem;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        border: 1px solid #5c3c92;
+        color: #5c3c92;
+        background: white;
+        border-radius: 3px;
+        cursor: pointer;
+        margin: 5px;
+}
+.anchor-it:hover,
+.anchor-it:active {
+  background-color: #5c3c92;
+  color: white;
+}
+/* 
+form .anchor-it {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+} */
+.button-it {
+    display: inline-block;
+    background: white;
+    font-family: sans-serif;
+}
+/* details page*/
+.contain-all {
+    text-align: center;
+    background-color: #E8ECEF;
+}
+.title-for-details {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.image-for-detials {
+    padding: 15px;
+    width: 35%;
+}
+.special-button {
+    font-size: 1.7rem;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #5c3c92;
+    color: #5c3c92;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.special-button:hover {
+    background-color: #5c3c92;
+    color: white;
+}
+/* Cart*/
+.cart-div {
+    background-color: #E8ECEF;
+}
+.number-of-items {
+    text-align: center;
+}
+.anchor-it-in {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.what {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    color: black;
+}
+.what-big {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+/*       Sign Up page styling        */
+
+
+@media screen and  (max-width:1000px){
+    #img-button{
+        box-sizing: border-box;
+        position: absolute;
+        background-color: Transparent;
+        font-size: 1.3rem;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid #fff;
+        padding:0 14px;
+        transition: opacity 1s 1.5s ease, background .7s, color .7s;
+        margin-top: 10%;
+        border-radius: 2px;
+    }
+    #img-button:hover{
+        border: none;
+        color: black;
+        background-color:white;
+        border-radius: 3px;
+    }
+    #style-home:hover{
+        background-color: white;
+    }
+    #list-for-navbar{
+        display: flex;
+        text-align: center;
+    }
+    #color-of-brand{
+        margin-left: 2%;
+    }
+    .color-of-elements:hover{
+        background-color: white;
+    }
+    #small-span{
+        display: flex;
+        margin-left:-10%;
+
+    }
+} 

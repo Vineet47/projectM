@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/buying.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="logo">Expresss</div>
+    </div>
+    <ul>
+        <% for (let [key, value] of help) { %>
+            <% if(product[key-1].id === id) {%>
+               <li> <div class="info"> <%= product[key-1].title%>  (<%= value %>) <button class="control1">add items</button> <button class="control2">reduce items</button> <button class="control">Buy all</button> %>
+                
+                    <!-- <select class="add__type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select> -->
+                </div></li>
+                <%}%>
+            <%}%>
+
+    </ul>
+</body>
+<script src="support.js">
+
+</script>
+</html>

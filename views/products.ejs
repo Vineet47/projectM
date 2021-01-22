@@ -1,0 +1,27 @@
+<%- include('includes/navigation.ejs') %> 
+<div class="product-container">
+    <div class="intro">
+        Products 
+    </div>
+     <div class="row">
+         <% product.forEach(p => { %>
+         <div class="container">
+                <img src="<%= p.imageSrc %>" alt="product-image" class="image-of-product">
+                <div class="product-title"><%= p.title %></div>
+                <div class="wrap">
+                    <div class="test">
+                        <a class="anchor-it" href="/details/<%= p.id %>">details</a>
+                        <form action="/Cart/<%= p.id %>" method="post">
+                            <button class="anchor-it" type="submit">add to cart</button>
+                            <input type="hidden" name="productId" value="<%= p.id %>">
+                        </form>
+                    </div>
+                </div>
+                <hr>
+           <% }) %>
+
+
+        </div>
+    </div>
+</div>
+<%- include('includes/footer.ejs') %> 
